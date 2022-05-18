@@ -186,7 +186,7 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
                       if(check==-1)
                         {
                           showDialog(context: context, builder: (context){
-                            return CustomDialogBox(title: "Oops!", descriptions: "It seems like the username you have entrered does not exist. Kindly check the username once again.\n\n If you do not have an account, tap Sign Up to create one", text: "Okay", img: Image.asset("assets/exclamation_mark.png"));
+                            return CustomDialogBox(title: "Oops!", descriptions: "The username you have entered does not exist. Kindly check the username once again.\n\n If you do not have an account, tap Sign Up to create one", text: "Okay", img: Image.asset("assets/exclamation_mark.png"));
                           });
                         }
                       else {
@@ -195,7 +195,7 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
                             builder: (context) => WelcomePage()));}
                         else{
                           showDialog(context: context, builder: (context){
-                            return CustomDialogBox(title: "Oops!", descriptions: "It seems like the password you have entered does not match with the username. Kindly check the username/password once again.\n\n If you do not have an account, tap Sign Up to create one", text: "Okay", img: Image.asset("assets/exclamation_mark.png"));
+                            return CustomDialogBox(title: "Oops!", descriptions: "The password you have entered does not match with the username. Kindly check the username/password once again.\n\n If you do not have an account, tap Sign Up to create one", text: "Okay", img: Image.asset("assets/exclamation_mark.png"));
                           });
                         }
                       }
