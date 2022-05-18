@@ -71,7 +71,7 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
                   controller: fullnameController,
                   decoration: const InputDecoration(
                     border: OutlineInputBorder(),
-                    hintText: 'Full Name',
+                    hintText: 'e.g.- William Smith',
                   ),
                 ),
               ),
@@ -83,7 +83,7 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
                   child: Align(
                       alignment: Alignment.topLeft,
                       child: const Text(
-                        'E-mail',
+                        'Email',
                         style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
                       )
                   )),
@@ -139,7 +139,7 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
                   keyboardType: TextInputType.number,
                   decoration: const InputDecoration(
                     border: OutlineInputBorder(),
-                    hintText: '+91 - XXXXXXXXXX',
+                    hintText: '10 digit number without country code',
                   ),
                 ),
               ),
@@ -188,7 +188,7 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
                     controller: confirmpasswordController,
                     decoration: InputDecoration(
                         border: OutlineInputBorder(),
-                        labelText: 'Password',
+                        labelText: 'Re-enter Password',
                         suffixIcon: InkWell(
                             onTap: _toggleconfirmpasswordView,
                             child: Icon(

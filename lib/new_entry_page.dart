@@ -239,7 +239,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     decoration: InputDecoration(
                       //errorText: validate_empid ? 'Value Can\'t Be Empty' : null,
                       border: OutlineInputBorder(borderRadius: BorderRadius.all(Radius.circular(5))),
-                      hintText: 'Enter text',),
+                      hintText: 'e.g.- 105',),
                     controller: emp_id,
                     keyboardType: TextInputType.number,
                   ),
@@ -259,7 +259,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     decoration: InputDecoration(
                       //errorText: validate_name ? 'Value Can\'t Be Empty' : null,
                       border: OutlineInputBorder(borderRadius: BorderRadius.all(Radius.circular(5))),
-                      hintText: 'Enter text',),
+                      hintText: 'e.g.- William Smith',),
                     controller: name,
                   ),
                   Text(''),
@@ -300,7 +300,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     padding: const EdgeInsets.symmetric(vertical: 8),
                     child: Align(alignment: Alignment.topLeft,
                     child: Text(
-                      'Which project/s are you currently working on?',
+                      'Which project(s) are you currently working on?',
                       style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
                       //textAlign: TextAlign.center,
                     ),
@@ -309,7 +309,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     decoration: InputDecoration(
                       //errorText: validate_proj ? 'Value Can\'t Be Empty' : null,
                       border: OutlineInputBorder(borderRadius: BorderRadius.all(Radius.circular(5))),
-                      hintText: 'Enter text',),
+                      hintText: 'Enter projects',),
                     controller: project,
                   ),
                   Text(''),
@@ -319,7 +319,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     padding: const EdgeInsets.symmetric(vertical: 8),
                     child: Align(alignment: Alignment.topLeft,
                     child: Text(
-                      'Any initiative/s you have taken up?',
+                      'Any initiative(s) you have taken up?',
                       style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
                       textAlign: TextAlign.center,
                     ),),
@@ -328,7 +328,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     decoration: InputDecoration(
                       //errorText: validate_init ? 'Value Can\'t Be Empty' : null,
                       border: OutlineInputBorder(borderRadius: BorderRadius.all(Radius.circular(5))),
-                      hintText: 'Enter text',),
+                      hintText: 'Enter initiatives',),
                     controller: init,
                   ),
                   Text(''),
